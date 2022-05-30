@@ -1,16 +1,9 @@
 // Set global variables, including Open Weather Maps API Key
 var owmAPI = "788d5638d7c8e354a162d6c9747d1bdf";
-// var owmAPI = "ae109be688da90301c8d97d02966a6d8";
 var currentCity = "";
 var lastCity = "";
 
-// Error handler for fetch, trying to mimic the AJAX .fail command: https://www.tjvantoll.com/2015/09/13/fetch-and-errors/
-var handleErrors = (response) => {
-    if (!response.ok) {
-        throw Error(response.statusText);
-    }
-    return response;
-}
+
 
 // Function to get and display the current conditions on Open Weather Maps
 var getCurrentConditions = (event) => {
@@ -120,7 +113,13 @@ var getFiveDayForecast = (event) => {
         $('#five-day-forecast').html(fiveDayForecastHTML);
     })
 }
-
+// Error handler for fetch, trying to mimic the AJAX .fail command: https://www.tjvantoll.com/2015/09/13/fetch-and-errors/
+var handleErrors = (response) => {
+    if (!response.ok) {
+        throw Error(response.statusText);
+    }
+    return response;
+}
 // Function to save the city to localStorage
 var saveCity = (newCity) => {
     let cityExists = false;
