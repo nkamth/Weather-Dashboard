@@ -1,5 +1,6 @@
 // Set global variables, including Open Weather Maps API Key
-var owmAPI = "788d5638d7c8e354a162d6c9747d1bdf";
+// var owmAPI = "788d5638d7c8e354a162d6c9747d1bdf";
+var owmAPI ="ee855fb1bebdd1eb41316f4d5ad3ce2f";
 var currentCity = "";
 var lastCity = "";
 
