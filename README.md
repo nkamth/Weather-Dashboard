@@ -23,9 +23,15 @@ GIVEN a weather dashboard with form inputs
 
 ## GitHub Repo URL :
 
+https://github.com/nkamth/Weather-Dashboard
+
 ## Deployed URL :
 
+https://nkamth.github.io/Weather-Dashboard/
+
 ## Screenshot :
+
+<img width="1280" alt="Screen Shot 2022-05-29 at 11 34 26 PM" src="https://user-images.githubusercontent.com/97250880/170912564-dfab846a-4952-4a72-9830-98997dbd2726.png">
 
 ---
 
